@@ -1,51 +1,8 @@
-*{margin: 0; padding: 0;} /* inicia todos os elementos com a margin e padding 0*/
-
-.container{
-    font-family: "Candara"; 
-    color: #00CED1;
-}
-/*definir as propriedades do topo*/
-header{
-    width: 100%; /*Largura*/
-    height: 100px; /*Altura*/
-    background-color: black;
-    position: relative;
-    top: 0;
-}
-/*definir as propriedades do logo*/
-.logo{
-    position: absolute;
-    width: 300px;
-    height: auto;
-}
-.logo img{
-    width: 50%;
-    margin-left: 10%;
-}
-/* definir as propriedades do menu*/
-nav{
-    position: absolute;
-    right: 30px;
-    bottom: 0px;
-}
-nav ul li{
-    float: left;
-    width: auto;
-    margin: 1.0em; /*Separa um Item do outro*/
-    font-size: 1.5em;
-    list-style: none;
-}
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-}
-nav ul li a:hover{color:#00CED1;}
-
-#banner{
-    width: 100%;
-}
-#banner img{
-    width: 100%;
-    margin-bottom: 0;
+header {
+    background-color: #53DF83;
 }
 
+a {
+    color: #000000;
+    font-size: 25px;
+}
